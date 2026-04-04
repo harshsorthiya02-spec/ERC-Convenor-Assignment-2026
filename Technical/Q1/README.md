@@ -47,7 +47,15 @@ The game also includes **sound feedback** and a **score display**, making it eng
 
 1. Power the circuit.
 2. Watch the LED sequence carefully.
-3. Repeat the pattern using buttons.
-4. Progress through levels and achieve high score.
-5. Game ends on wrong input.
-
+3. Repeat the pattern using the buttons **within the given time**.
+4. If you take too long:
+   - A "Hurry Up!" warning will be displayed
+   - Buzzer will alert you
+5. Enter the correct sequence to move to the next level.
+6. With each level:
+   - Pattern length increases
+   - Speed increases
+7. The game ends if:
+   - You press the wrong button
+   - You run out of time
+8. Try to achieve the highest score displayed on the LCD.
