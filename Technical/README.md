@@ -4,7 +4,7 @@ This section contains solutions to all technical problems including circuit desi
 
 ## Questions
 
-- Q1: [Project Name]
+- Q1: [LED MEMORY GAME]
 - Q2: 
 - Q3:
 - Q4:
