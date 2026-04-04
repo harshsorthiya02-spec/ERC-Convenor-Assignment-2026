@@ -128,7 +128,7 @@ Indicates that the original signal had complex phase alterations that are not fu
 Even with correct frequency content, improper phase alignment can cause audible distortion
 This highlights the importance of phase in accurate signal reconstruction
 
-## Results
+ Results
 ---
 Successfully achieved:
 
@@ -138,11 +138,11 @@ Removed narrowband interference
 
 Recovered baseband signal
 
-Limitation:
+## Limitation:
 
 Phase distortion could not be fully corrected
 
-Final Output:
+## Final Output:
 
 Recovered audio file: recovered.wav
 
