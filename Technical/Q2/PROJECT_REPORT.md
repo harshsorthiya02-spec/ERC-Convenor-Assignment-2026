@@ -1,17 +1,21 @@
 # Audio Signal Recovery from Corrupted WAV
----
- Objective
 
-Recover the original audio signal from a corrupted .wav file using signal processing techniques.
+ Objective
+ ---
+
+Recovered the original audio signal from a corrupted .wav file using signal processing techniques.
 The transformations applied to the signal were unknown and had to be inferred through analysis.
 
-🧠 Approach
+# Approach
 
 The task was approached as a step-by-step investigation, where each stage of analysis revealed the next issue in the signal. FFT and filtering techniques were used as primary tools.
 
-🔍 Stage 1 — Understanding the Received Signal
-📊 Actions Performed:
-Loaded the corrupted signal
+Stage 1 — Understanding the Received Signal
+---
+
+ Actions Performed:
+ 
+->Loaded the corrupted signal
 Plotted the signal in the time domain
 Computed and plotted its FFT
 🔎 Observations:
