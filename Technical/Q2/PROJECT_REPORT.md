@@ -24,6 +24,8 @@ The task was approached as a step-by-step investigation, where each stage of ana
  Observations:
 <img width="1021" height="393" alt="TIME DOMIAN OF THE CORRUPTED SIGNAL" src="https://github.com/user-attachments/assets/1b9f8180-5d22-408e-b6fb-caaf5c339cd4" />
 
+<img width="1023" height="470" alt="FFT OF THE CORRUPTED SIGNAL" src="https://github.com/user-attachments/assets/b7b5373b-4a45-4e3e-bead-d707c22f7265" />
+
 Time-domain signal appeared highly oscillatory and not like natural audio
 FFT showed that energy was concentrated around ~7 kHz, not near 0 Hz
 
