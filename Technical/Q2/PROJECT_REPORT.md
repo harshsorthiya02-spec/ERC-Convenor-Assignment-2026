@@ -6,10 +6,6 @@
 Recovered the original audio signal from a corrupted .wav file using signal processing techniques.
 The transformations applied to the signal were unknown and had to be inferred through analysis.
 
-<img width="1021" height="393" alt="TIME DOMIAN OF THE CORRUPTED SIGNAL" src="https://github.com/user-attachments/assets/90d4419c-d423-4167-a669-edc6ee628e2f" />
-
-
-
 # Approach
 
 The task was approached as a step-by-step investigation, where each stage of analysis revealed the next issue in the signal. FFT and filtering techniques were used as primary tools.
@@ -26,6 +22,7 @@ The task was approached as a step-by-step investigation, where each stage of ana
 ->Computed and plotted its FFT
 
  Observations:
+<img width="1021" height="393" alt="TIME DOMIAN OF THE CORRUPTED SIGNAL" src="https://github.com/user-attachments/assets/1b9f8180-5d22-408e-b6fb-caaf5c339cd4" />
 
 Time-domain signal appeared highly oscillatory and not like natural audio
 FFT showed that energy was concentrated around ~7 kHz, not near 0 Hz
