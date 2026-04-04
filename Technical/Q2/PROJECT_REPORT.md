@@ -51,7 +51,6 @@ Additional components appeared around ~14 kHz
 
 ->Applied a low-pass filter(cutoff~4 kHz) to remove high-frequency components inroduced during demodulation.
 
-<img width="1014" height="470" alt="FFT AFTER DEMODULATION " src="https://github.com/user-attachments/assets/9c63e7a1-89b6-4221-85b6-9c557df45318" />
 
  Explanation:
 
@@ -77,6 +76,8 @@ Demodulated and then filtered.
  
 Observations:
 
+<img width="1031" height="470" alt="FFT AFTER LOW PASS FILTER" src="https://github.com/user-attachments/assets/f477b92a-1476-41d6-bfe9-bb4172d843cb" />
+
 Spikes detected at approximately:
 
 1200 Hz
@@ -94,6 +95,8 @@ Not part of natural speech (which has smooth spectrum)
 Applied notch filters at detected frequencies
 
  Result:
+<img width="1031" height="470" alt="FINAL FFT AFTER REMOVING SPIKES " src="https://github.com/user-attachments/assets/3db14ed6-c9f6-4f91-9556-8c190cc7b625" />
+
 
 Spikes significantly reduced
 Spectrum became smoother and more speech-like
