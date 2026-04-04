@@ -9,6 +9,6 @@
 | Passive Buzzer       | 1       | 7            |
 | 16x2 LCD (I2C)       | 1       | 80            |
 | Breadboard           | 1       | 100            |
-| Jumper Wires         | -       | 50            |
-| **Total Cost**       |         | **530 ₹**     |
+| Jumper Wires         | -       | 40            |
+| **Total Cost**       |         | **520 ₹**     |
 Total cost is within ₹1000 budget.
