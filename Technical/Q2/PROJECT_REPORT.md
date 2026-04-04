@@ -29,7 +29,7 @@ The task was approached as a step-by-step investigation, where each stage of ana
 Time-domain signal appeared highly oscillatory and not like natural audio
 FFT showed that energy was concentrated around ~7 kHz, not near 0 Hz
 
- Conclusion:
+## Conclusion:
 
 Since normal speech lies in 0–4 kHz, the signal was not in baseband
 This indicated that the signal had been frequency shifted (modulated)
