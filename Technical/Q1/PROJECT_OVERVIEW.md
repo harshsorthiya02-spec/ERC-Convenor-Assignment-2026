@@ -1,4 +1,4 @@
-# Question 1: LED Memory Game 
+# Question 1: LED Memory Game (FUN WEEKEND)
 
 ## Project Overview
 This project is an interactive **LED Memory Game** built using a microcontroller.  
