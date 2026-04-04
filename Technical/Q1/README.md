@@ -1,4 +1,4 @@
-# Question 1: LED Memory Game 🎮
+# Question 1: LED Memory Game 
 
 ##  Project Overview
 This project is an interactive **LED Memory Game** built using a microcontroller.  
@@ -13,7 +13,7 @@ The game also includes **sound feedback** and a **score display**, making it eng
 ---
 
 
-## ⚙️ Working Principle
+## Working Principle
 
 1. The system generates a random LED sequence.
 2. LEDs glow one by one to display the pattern.
@@ -32,7 +32,7 @@ The game also includes **sound feedback** and a **score display**, making it eng
 
 ---
 
-## 🎮 Features
+## Features
 
 -  Random pattern generation
 -  Increasing difficulty levels
