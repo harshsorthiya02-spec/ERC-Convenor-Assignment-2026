@@ -34,6 +34,7 @@ A4 → SDA (LCD)
 A5 → SCL (LCD)
 
 5V → LCD VCC
+
 ---
 GROUND
 ---
