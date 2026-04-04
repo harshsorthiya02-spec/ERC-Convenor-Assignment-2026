@@ -1,6 +1,6 @@
 # Audio Signal Recovery from Corrupted WAV
 
-## Objective
+ Objective
  ---
 
 Recovered the original audio signal from a corrupted .wav file using signal processing techniques.
@@ -13,7 +13,7 @@ The task was approached as a step-by-step investigation, where each stage of ana
 # Stage 1 — Understanding the Received Signal
 
 
- Actions Performed:
+## Actions Performed:
  
 ->Loaded the corrupted signal
 
