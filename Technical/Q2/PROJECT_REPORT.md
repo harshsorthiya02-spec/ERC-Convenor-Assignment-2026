@@ -147,21 +147,9 @@ Matplotlib
 
 Google Colab
 
- Challenges Faced
-
-Identifying carrier frequency from FFT
-
-Designing filters without damaging speech
-
-Removing tonal noise (~300 Hz)
-
-Handling phase distortion not visible in FFT
-
- 
  Conclusion
+---
 
 The corrupted signal was successfully analyzed and partially restored using DSP techniques.
 While frequency-domain distortions were effectively corrected, residual phase distortion highlighted the importance of phase information in accurate signal reconstruction.
 
-Run the notebook step-by-step
-View plots and listen to output audio
