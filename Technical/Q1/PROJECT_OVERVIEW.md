@@ -50,3 +50,9 @@ The game also includes **sound feedback** and a **score display**, making it eng
    - You press the wrong button
    - You run out of time
 8. Try to achieve the highest score displayed on the LCD.
+
+---
+# Resources Given
+1. BOM ( bill of material ).
+2. circuit and schematic diagram.
+3. Code for Arduino.  
