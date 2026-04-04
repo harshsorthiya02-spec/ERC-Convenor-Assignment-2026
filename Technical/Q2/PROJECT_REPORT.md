@@ -42,10 +42,16 @@ This indicated that the signal had been frequency shifted (modulated)
 
 ->Multiplied the signal with a cosine wave of the same frequency
 
+
  Observations:
+<img width="1014" height="470" alt="FFT AFTER DEMODULATION " src="https://github.com/user-attachments/assets/544e367c-7dfc-4628-82e2-6aea535a2a3a" />
 
 Signal energy returned to 0–4 kHz
 Additional components appeared around ~14 kHz
+
+->Applied a low-pass filter(cutoff~4 kHz) to remove high-frequency components inroduced during demodulation.
+
+<img width="1014" height="470" alt="FFT AFTER DEMODULATION " src="https://github.com/user-attachments/assets/9c63e7a1-89b6-4221-85b6-9c557df45318" />
 
  Explanation:
 
@@ -58,7 +64,9 @@ Demodulation creates
  Conclusion:
 
 The signal had undergone amplitude modulation
-Demodulation successfully brought it back to baseband
+Demodulation successfully brought it back to baseband.
+
+Demodulated and then filtered.
 
 # Stage 3 — Noise and Interference Removal
 
