@@ -1,6 +1,6 @@
 # Question 1: LED Memory Game 
 
-## - Project Overview
+## Project Overview
 This project is an interactive **LED Memory Game** built using a microcontroller.  
 The system generates a sequence of LED patterns which the player must remember and reproduce using buttons.
 
