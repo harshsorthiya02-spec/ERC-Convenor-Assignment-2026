@@ -43,7 +43,7 @@ The game also includes **sound feedback** and a **score display**, making it eng
 -  Beginner-friendly design
 ---
 
-## 🕹️ How to Play
+## How to Play
 
 1. Power the circuit.
 2. Watch the LED sequence carefully.
