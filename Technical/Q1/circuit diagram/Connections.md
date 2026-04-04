@@ -1,6 +1,9 @@
 D2  → Button 1
+
 D3  → Button 2
+
 D4  → Button 3
+
 D5  → Button 4
 
 D6  → Buzzer
