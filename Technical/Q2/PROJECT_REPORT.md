@@ -10,8 +10,8 @@ The transformations applied to the signal were unknown and had to be inferred th
 
 The task was approached as a step-by-step investigation, where each stage of analysis revealed the next issue in the signal. FFT and filtering techniques were used as primary tools.
 
-Stage 1 — Understanding the Received Signal
----
+#Stage 1 — Understanding the Received Signal
+
 
  Actions Performed:
  
@@ -46,7 +46,7 @@ Additional components appeared around ~14 kHz
 
  Explanation:
 
-Demodulation creates:
+Demodulation creates
 
 ->Desired signal (baseband)
 
