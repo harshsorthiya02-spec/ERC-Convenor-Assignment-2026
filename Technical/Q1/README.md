@@ -32,16 +32,7 @@ The game also includes **sound feedback** and a **score display**, making it eng
 
 ---
 
-## Features
 
--  Random pattern generation
--  Increasing difficulty levels
--  Faster gameplay with progression
--  Time-based challenge with warning system
--  Sound feedback using buzzer
--  Score display using LCD
--  Beginner-friendly design
----
 
 ## How to Play
 
