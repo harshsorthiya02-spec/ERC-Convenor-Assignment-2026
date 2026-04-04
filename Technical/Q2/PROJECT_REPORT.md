@@ -36,14 +36,14 @@ This indicated that the signal had been frequency shifted (modulated)
 
 # Stage 2 — Frequency Recovery (Demodulation)
 
- Actions Performed:
+## Actions Performed:
 
 ->Identified carrier frequency (~7 kHz) from FFT peak
 
 ->Multiplied the signal with a cosine wave of the same frequency
 
 
- Observations:
+## Observations:
 <img width="1014" height="470" alt="FFT AFTER DEMODULATION " src="https://github.com/user-attachments/assets/544e367c-7dfc-4628-82e2-6aea535a2a3a" />
 
 Signal energy returned to 0–4 kHz
@@ -52,7 +52,7 @@ Additional components appeared around ~14 kHz
 ->Applied a low-pass filter(cutoff~4 kHz) to remove high-frequency components inroduced during demodulation.
 
 
- Explanation:
+## Explanation:
 
 Demodulation creates
 
@@ -60,7 +60,7 @@ Demodulation creates
 
 ->Unwanted high-frequency component (2 × carrier)
 
- Conclusion:
+## Conclusion:
 
 The signal had undergone amplitude modulation
 Demodulation successfully brought it back to baseband.
@@ -69,12 +69,12 @@ Demodulated and then filtered.
 
 # Stage 3 — Noise and Interference Removal
 
- Actions Performed:
+## Actions Performed:
 
 ->Computed FFT after demodulation
 ->Identified narrow spikes in frequency domain
  
-Observations:
+## Observations:
 
 <img width="1031" height="470" alt="FFT AFTER LOW PASS FILTER" src="https://github.com/user-attachments/assets/f477b92a-1476-41d6-bfe9-bb4172d843cb" />
 
@@ -85,7 +85,7 @@ Spikes detected at approximately:
 2200 Hz
 
 
-Interpretation:
+## Interpretation:
 
 These spikes represent narrowband interference
 Not part of natural speech (which has smooth spectrum)
@@ -94,7 +94,7 @@ Not part of natural speech (which has smooth spectrum)
 
 Applied notch filters at detected frequencies
 
- Result:
+## Result:
 <img width="1031" height="470" alt="FINAL FFT AFTER REMOVING SPIKES " src="https://github.com/user-attachments/assets/3db14ed6-c9f6-4f91-9556-8c190cc7b625" />
 
 
@@ -103,7 +103,7 @@ Spectrum became smoother and more speech-like
 
 # Stage 4 — Residual Distortion (Phase Issue)
 
-Observations:
+## Observations:
 
 After filtering, the FFT appeared correct with energy in the 0–4 kHz range
 However, the audio still sounded distorted (metallic / tonal noise)
@@ -114,21 +114,21 @@ The issue was identified as phase distortion
 
 FFT magnitude analysis only shows amplitude and does not capture phase information
 
-Approach:
+## Approach:
 
 Tried normalization and signal inversion
 Applied Hilbert transform to extract the signal envelope and reduce phase effects
 
-Result:
+## Result:
 Audio quality improved slightly but was not perfectly restored
 Indicates that the original signal had complex phase alterations that are not fully reversible using basic methods
 
-Conclusion:
+## Conclusion:
 
 Even with correct frequency content, improper phase alignment can cause audible distortion
 This highlights the importance of phase in accurate signal reconstruction
 
-Results
+## Results
 ---
 Successfully achieved:
 
