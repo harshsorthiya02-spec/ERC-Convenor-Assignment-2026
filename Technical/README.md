@@ -5,7 +5,7 @@ This section contains solutions to all technical problems including circuit desi
 ## Questions
 
 - Q1: LED MEMORY GAME
-- Q2: TRAPPED ICONIC AUDIO
-- Q3:
+- Q2: 
+- Q3: TRAPPED ICONIC AUDIO
 - Q4:
 - Q5:
