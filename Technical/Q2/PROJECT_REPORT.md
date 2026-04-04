@@ -1,6 +1,6 @@
 # Audio Signal Recovery from Corrupted WAV
 
-- Objective
+## Objective
  ---
 
 Recovered the original audio signal from a corrupted .wav file using signal processing techniques.
